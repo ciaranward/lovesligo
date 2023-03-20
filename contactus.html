@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>LoveSligo</title>
+<meta charset="utf-8">
+<meta name="description" content="Guide to Sligo, what to do, where to go.">
+<meta name="keywords" content="Sligo, Walks, Nightlife, Restaraunt">
+<link rel="stylesheet" type="text/css" href=styles/styles.css>
+<link rel="icon" href="images/favicon-32x32.png" type="images/gif" sizes="16x16">
+</head>
+    <header>
+<img src="images/LS square.png" alt="logo" style="float:left; width: 100px; height: 100px;" >
+<h1>Love Sligo</h1>
+</header>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="walks.html">Walks</a></li>
+<li id="active"><a href="contactus.html">Contact us</a></li>
+
+</ul>
+</nav>
+    <body id="backgroundImage">
+        <section>
+            <h3 style="color: white;">Please enter the following information: </h3>
+                <form action= "http://foo.com" method="get" ></form>
+            </section>
+        <form id="contactForm" action="http:/foo.com" method="post">
+            <label for="first_name">First name:<span class="required"></span></label>
+            <input type="text" name="first-name" id="first-name" autofocus required><br>
+            <label for="last-name">Last name:<span class="required"></span></label>
+            <input type="text" name="last-name" id="last-name" required><br>
+            <label for="email">Email:<span class="required"></span></label>
+            <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+            <label type="gender">Gender :</label>
+            <input type="radio" id="gender" name="gender" value="male">Male 
+            <input type="radio" id="gender" name="gender" value="female">Female <br> 
+            <label for="internet">Heard of us:</label>
+            <fieldset>
+                <input type="checkbox" id="internet" name="internet" value="internet" checked>Internet <br>
+                <input type="checkbox" class="marginl" id="hearr" name="paper" value="paper"> Newspaper <br>
+                <input type="checkbox" class="marginl" id="hear" name="friend" value="friend"> Friend <br>
+                <input type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Others 
+                <br>
+            </fieldset>
+            <label for="message">Query  :  </label>
+            <textarea cols="50" rows="6"
+            id="message" name="message" placeholder="Your message must be less than 200 characters" data maxlength="200"></textarea> <br>
+            <input type="submit" name="submit" id="button" value="Submit">
+            <input type="reset" name="reset" id="reset">
+        </form>
+        </section>
+    </body>
+    <footer>
+        <h4>&copy; 2023 Love Sligo</h4>
+    </footer>
+    </html>

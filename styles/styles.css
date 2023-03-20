@@ -1,0 +1,241 @@
+header {
+    background-image: url(../images/14002287012_48b4cd55f1_b.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 250px;
+    color: white;
+    border: 1px solid rgb(0, 142, 237);
+}
+
+nav {
+    background-color: rgb(0, 142, 237);
+    padding: 4px;
+}
+
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+section.manager {
+    max-height:350px;
+    overflow: auto;
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(120, 185, 255);
+    display: inline;
+    padding: 20px;
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li:hover {
+    background-color: lightskyblue;
+}
+
+#active {
+    background-color: darkblue;
+}
+
+main {
+    width: 80%;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    float: left;
+}
+
+#aboutUs {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+
+#bigPic {
+    width: 100%;
+}
+
+
+aside {
+    float: right;
+    background-color: black;
+    color: white;
+    border: .5px solid lightblue;
+    width: 18%;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+footer {
+    clear: both;
+    border: 1px solid lightblue;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 142, 237);
+
+}
+
+#YeatsPic{
+    float: left;
+    border: 2px solid white;
+    margin:0 10px 0 10px;
+    width: 300px;
+}
+
+.col_detail {
+column-count: 3;
+column-rule:1px solid white;
+column-gap:50px;
+padding:2px;
+overflow: auto;
+}
+
+#col1 {
+    width: 300px;
+}
+
+#col2 {
+width: 300px;
+}
+
+#col3 {
+    width: 300px;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    padding: 2px;
+}
+
+
+h2 {
+    text-align: center; 
+    color: antiquewhite;
+}
+
+h3 {
+color: white;
+}
+
+
+section.manager {
+    max-height: 350px;
+    overflow: auto;
+}
+
+
+body {
+    font-family: Verdana;
+    background-color: black;
+}
+
+.course {
+    text-align: center;
+    padding: 10px;
+}
+
+.videoContent {
+    float: right;
+    width: 49%;
+    border: 2px solid white;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+
+.backgroundB {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 18px;
+    padding: 18px;
+    text-align: center;
+
+}
+
+#backgroundImage {
+    font-family: sans-serif;
+    background-image: url(../Images/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    #contactForm {
+        margin: 15px 200px;
+        padding: 20px;   
+    border: black solid 1px;
+    background: white;
+    min-height: 500px;
+
+}
+
+.required {
+    font-weight: bold;
+    color: red;
+
+}
+
+
+header p {
+    font-style: italic;
+    text-align: center;
+    font-weight: 900;
+}
+
+label {
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 300px;
+}
+
+input[type="checkbox"] {width: 15px;}
+
+input [type="radio"] {width: 10px;}
+
+#button , #reset {
+    margin-top: 5em;
+    width: 8cm;
+    background-color: orange;
+    border: 2px solid black;
+    
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+#border {
+    border: 3px solid rgb(120, 185, 255);
+}
